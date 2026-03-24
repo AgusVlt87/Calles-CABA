@@ -1,0 +1,17 @@
+﻿tipo,partido_electoral,partidos_calles,n,rho,p_value,significativo_005,magnitud,direccion,nota
+promedio,Centroderecha,UCR,91,0.092,0.3859,False,débil,positiva,
+promedio,Liberalismo,Liberalismo,12,-0.4983,0.0992,False,moderada,negativa,
+promedio,PJ,PJ,29,-0.292,0.1243,False,débil,negativa,
+promedio,PS,PS,27,-0.2183,0.2739,False,débil,negativa,
+jefe_gobierno,Centroderecha,UCR,91,0.0779,0.4631,False,débil,positiva,
+jefe_gobierno,Liberalismo,Liberalismo,12,0.0142,0.965,False,débil,positiva,
+jefe_gobierno,PJ,PJ,29,-0.384,0.0397,True,moderada,negativa,
+jefe_gobierno,PS,,0,,,False,,,N insuficiente
+legislativa,Centroderecha,UCR,91,0.1099,0.2995,False,débil,positiva,
+legislativa,Liberalismo,Liberalismo,12,-0.5588,0.0589,False,fuerte,negativa,
+legislativa,PJ,PJ,29,-0.2698,0.1569,False,débil,negativa,
+legislativa,PS,PS,27,0.0784,0.6976,False,débil,positiva,
+presidencial,Centroderecha,UCR,91,0.084,0.4284,False,débil,positiva,
+presidencial,Liberalismo,Liberalismo,12,0.2598,0.4148,False,débil,positiva,
+presidencial,PJ,PJ,29,-0.2504,0.1902,False,débil,negativa,
+presidencial,PS,PS,27,-0.2815,0.1549,False,débil,negativa,

@@ -1,0 +1,4 @@
+﻿partido_electoral,n,morans_I,expected_I,p_value,z_score,significativo_005
+Centroderecha,91,0.3554,-0.0111,0.001,4.4056,True
+PJ,29,0.3166,-0.0357,0.031,1.9623,True
+PS,27,0.0781,-0.0385,0.246,0.6974,False
