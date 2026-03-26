@@ -58,13 +58,13 @@ PARTIDO_MADRE = {
 
     # Radicalismo / UCR
     "Unión Cívica Radical":                     "UCR",
-    "Unión Cívica":                             "UCR",
+    "Unión Cívica":                             "Liberalismo",
     "Frente Cívico y Social":                   "UCR",
     "Unión Cívica Radical Intransigente":        "UCR",
     "Coalición Cívica ARI":                   "UCR",
     "Movimiento de Integración y Desarrollo": "UCR",
     "Frente Cívico de Córdoba":                   "UCR",
-    "Unión Cívica Nacional":                   "UCR",
+    "Unión Cívica Nacional":                   "Liberalismo",
     "Unión Cívica Radical del Pueblo":                   "UCR",
     "Unión Cívica Radical Antipersonalista":                   "UCR",
     "Juntos Somos Río Negro":                   "UCR",

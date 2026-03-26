@@ -1,5 +1,6 @@
 ﻿wikidata_id,nombre,alias,partido_raw,inicio_mandato,fin_mandato,sitelinks,tipo,partido_madre,sitelinks_max
 Q442729,José Figueroa Alcorta,José María Cornelio del Corazón de Jesús Figueroa Alcorta,Partido Autonomista Nacional,1906,1910,27,presidente,Liberalismo,27
+Q442729,Ernesto Tornquist,Ernesto Tornquist,Partido Autonomista Nacional,,,0,empresario,Liberalismo,0
 Q442729,José Figueroa Alcorta,Jose Figueroa Alcorta,Partido Autonomista Nacional,1906,1910,27,presidente,Liberalismo,27
 Q383015,Roque Sáenz Peña,Roque Sáenz Peña y Lahitte,Partido Autonomista Nacional,1910,1914,35,presidente,Liberalismo,35
 Q383015,Roque Sáenz Peña,Roque José Antonio del Sagrado Corazón de Jesús Sáenz Peña y Lahitte,Partido Autonomista Nacional,1910,1914,35,presidente,Liberalismo,35
@@ -233,10 +234,12 @@ Q5934353,Hugo Perié,Hugo Rubén Perie,Partido Justicialista,,,4,politico,PJ,4
 Q101210427,Patricia Mounier,,Frente para la Victoria,,,2,politico,PJ,2
 Q85853384,Carlos Zavala,Carlos Edgardo Zavala,Unión Cívica Radical,,,1,politico,UCR,1
 Q17274747,Felipe Santiago Pérez,Felipe Santiago Perez,Partido Justicialista,,,2,politico,PJ,2
+Q442729,Doctor Luis Agote,Luis Agote,Partido Autonomista Nacional,,,1,politico,Liberalismo,1
 Q5904691,Hugo Vaca Narvaja,Hugo Miguel Vaca Narvaja,Unión Cívica Radical,,,1,politico,UCR,1
 Q6107445,Reynaldo Pastor,Reynaldo Alberto Pastor,Partido Demócrata (Argentina),,,2,politico,Liberalismo,2
 Q5904691,Hugo Vaca Narvaja,Miguel Hugo Vaca Narvaja Morra,Unión Cívica Radical,,,1,politico,UCR,1
 Q118868124,Oscar Saliba,Oscar Elías Mario Saliba,Juntos por el Cambio,,,1,politico,PRO,1
+,Hilario de Almeira,Hilario de Almeida,Partido Autonomista Nacional,,,1,politico,Liberalismo,1
 Q2894286,José Luis Machinea,Jose Luis Machinea,Unión Cívica Radical,,,5,politico,UCR,5
 Q5833342,Enrique Godoy,,Partido Autonomista Nacional,,,3,politico,Liberalismo,3
 Q16594562,Luis Monteverde,,Unión Cívica Radical,,,2,politico,UCR,2
@@ -408,7 +411,7 @@ Q5042195,Carlos Humberto Perette,Carlos H. Perette,Unión Cívica Radical,,,7,po
 Q5042195,Carlos Humberto Perette,Carlos Perette,Unión Cívica Radical,,,7,politico,UCR,7
 Q5042195,Carlos Humberto Perette,Perette,Unión Cívica Radical,,,7,politico,UCR,7
 Q101413635,María Luján Rey,,Propuesta Republicana,,,3,politico,PRO,3
-Q4776451,Antonio Bermejo,,Unión Cívica Nacional,,,5,politico,UCR,5
+Q4776451,Antonio Bermejo,,Unión Cívica Nacional,,,5,politico,Liberalismo,5
 Q16568326,Florencio Tenev,,Partido Justicialista,,,4,politico,PJ,4
 Q63342097,Roberto Osvaldo Fernández,,Frente para la Victoria,,,0,politico,PJ,0
 Q16578114,Ignacio Darío Irigoyen,Ignacio Dario Irigoyen,Partido Autonomista Nacional,,,3,politico,Liberalismo,3
@@ -645,7 +648,7 @@ Q135509440,Gary Vila Ortiz,A.C. Vila Ortíz,Partido Demócrata Progresista,,,0,p
 Q135509440,Gary Vila Ortiz,Alberto C. Vila Ortíz,Partido Demócrata Progresista,,,0,politico,Liberalismo,0
 Q135509440,Gary Vila Ortiz,Casiano Morteo,Partido Demócrata Progresista,,,0,politico,Liberalismo,0
 Q5818949,Eduardo Alderete,Eduardo Huáscar Alderete,Partido Justicialista,,,1,politico,PJ,1
-Q5866452,Francisco Julián Beazley,Francisco Julian Beazley,Unión Cívica Nacional,,,2,politico,UCR,2
+Q5866452,Francisco Julián Beazley,Francisco Julian Beazley,Unión Cívica Nacional,,,2,politico,Liberalismo,2
 Q124415492,Florencia de Sensi,Maria Florencia De Sensi,Propuesta Republicana,,,2,politico,PRO,2
 Q7357213,Rodolfo Terragno,Terragno,Unión Cívica Radical,,,7,politico,UCR,7
 Q9095302,Víctor Hugo Vilhem,Victor Hugo Vilhem,Frente para la Victoria,,,1,politico,PJ,1
@@ -720,7 +723,7 @@ Q5042783,Carlos Washington Lencinas,Carlos W. Lencinas,Unión Cívica Radical,,,
 Q5667972,Carlos J. Rodríguez,Carlos J. Rodriguez,Unión Cívica Radical,,,2,politico,UCR,2
 Q5996749,Marcos Zeida,,Partido Comunista Paraguayo,,,2,politico,Sin clasificar,2
 Q6108116,Ricardo César Guardo,Ricardo Cesar Guardo,Partido Justicialista,,,4,politico,PJ,4
-Q5888980,Guillermo Udaondo,,Unión Cívica,,,2,politico,UCR,2
+Q5888980,Guillermo Udaondo,,Unión Cívica,,,2,politico,Liberalismo,2
 Q18286673,Blas Benjamín de la Vega,Blas Benjamin de la Vega,Unión Cívica Radical,,,1,politico,UCR,1
 Q23411111,Albor Cantard,,Unión Cívica Radical,,,3,politico,UCR,3
 Q42432799,Adolfo Rubinstein,Adolfo Luis Rubinstein,Unión Cívica Radical,,,2,politico,UCR,2
@@ -1250,7 +1253,7 @@ Q5726779,Bernardo Grinspun,,Unión Cívica Radical,,,5,politico,UCR,5
 Q5764501,Chango Farías Gómez,Chango Farias Gomez,Partido Justicialista,,,3,politico,PJ,3
 Q6066613,Patricia Vaca Narvaja,,Partido Justicialista,,,3,politico,PJ,3
 Q7322551,Ricardo Balbín,Ricardo Balbin,Unión Cívica Radical,,,10,politico,UCR,10
-Q27118910,Santiago Gregorio O'Farrell,,Unión Cívica Nacional,,,3,politico,UCR,3
+Q27118910,Santiago Gregorio O'Farrell,,Unión Cívica Nacional,,,3,politico,Liberalismo,3
 Q5948514,Juan Carlos Pitt,,Partido Autonomista Nacional,,,1,politico,Liberalismo,1
 Q5905000,Humberto Roggero,,Partido Justicialista,,,2,politico,PJ,2
 Q6299395,Juan Carlos Romero,Juan Carlos Romero (politico argentino),Partido Justicialista,,,4,politico,PJ,4
@@ -1461,9 +1464,6 @@ Q126283601,Alejandra Torres,,Partido Justicialista,,,1,politico,PJ,1
 Q5401865,Alberto Rocamora,Alberto Luis Rocamora,Partido Justicialista,,,3,politico,PJ,3
 Q6108050,Ricardo Buryaile,,Unión Cívica Radical,,,4,politico,UCR,4
 Q6108064,Ricardo Campero,,Unión Cívica Radical,,,1,politico,UCR,1
-Q20016473,Horacio Quiroga,Horacio Pechi Quiroga,Unión Cívica Radical,,,3,politico,UCR,3
-Q20016473,Horacio Quiroga,Horacio Rodolfo Quiroga,Unión Cívica Radical,,,3,politico,UCR,3
-Q20016473,Horacio Quiroga,Pechi Quiroga,Unión Cívica Radical,,,3,politico,UCR,3
 Q16492177,Eduardo García Caffi,Eduardo Garcia Caffi,Partido Justicialista,,,2,politico,PJ,2
 Q3286813,Manuel Fresco,Manuel Antonio Fresco,Partido Demócrata (Argentina),,,5,politico,Liberalismo,5
 Q5667972,Carlos J. Rodríguez,Carlos Juan Rodríguez,Unión Cívica Radical,,,2,politico,UCR,2
@@ -1498,7 +1498,7 @@ Q18811470,Eduardo José A. Gamond,Eduardo Gamond,Unión Cívica Radical,,,2,poli
 Q18811470,Eduardo José A. Gamond,Eduardo Jose A. Gamond,Unión Cívica Radical,,,2,politico,UCR,2
 Q61718326,Alberto Ramón Maglietti,,Unión Cívica Radical,,,2,politico,UCR,2
 Q47490890,Marga Ferré,Margarita María Ferré Luparia,Partido Comunista de España,,,3,politico,Sin clasificar,3
-Q16562331,Enrique S. Quintana,Enrique Santos Quintana,Unión Cívica Nacional,,,6,politico,UCR,6
+Q16562331,Enrique S. Quintana,Enrique Santos Quintana,Unión Cívica Nacional,,,6,politico,Liberalismo,6
 Q17996429,Máximo Paz,Maximo Paz,Partido Autonomista Nacional,,,5,politico,Liberalismo,5
 Q21856289,Pablo Torello,,Propuesta Republicana,,,3,politico,PRO,3
 Q7977024,Wbaldino Acosta,Waldino Acosta,Partido Bloquista,,,4,politico,Sin clasificar,4
@@ -1659,9 +1659,9 @@ Q60145,Walther Darré,Walther Darre,Partido Nazi,,,37,politico,Dictadura,37
 Q5931725,Joaquín Argonz,Joaquin Argonz,Partido Demócrata (Argentina),,,2,politico,Liberalismo,2
 Q63342306,Jorge Alberto D'Onofrio,,Frente Renovador,,,0,politico,PJ,0
 Q3830682,Leopoldo Bard,,Unión Cívica Radical,,,5,politico,UCR,5
-Q118122506,Narciso Segundo Mallea,Narciso Mallea,Unión Cívica Nacional,,,2,politico,UCR,2
-Q118122506,Narciso Segundo Mallea,Narciso S. Mallea,Unión Cívica Nacional,,,2,politico,UCR,2
-Q118122506,Narciso Segundo Mallea,Segundo Huarpe,Unión Cívica Nacional,,,2,politico,UCR,2
+Q118122506,Narciso Segundo Mallea,Narciso Mallea,Unión Cívica Nacional,,,2,politico,Liberalismo,2
+Q118122506,Narciso Segundo Mallea,Narciso S. Mallea,Unión Cívica Nacional,,,2,politico,Liberalismo,2
+Q118122506,Narciso Segundo Mallea,Segundo Huarpe,Unión Cívica Nacional,,,2,politico,Liberalismo,2
 Q6108136,Ricardo Echegaray,Ricardo Daniel Echegaray,Frente para la Victoria,,,2,politico,PJ,2
 Q15927289,Zacarías Agüero Vera,Zacarias Aguero Vera,Unión Cívica Radical,,,2,politico,UCR,2
 Q5951862,Juan Pablo Schiavi,,Partido Justicialista,,,3,politico,PJ,3
@@ -1721,8 +1721,6 @@ Q6110928,Rogelio Araya,,Unión Cívica Radical,,,2,politico,UCR,2
 Q124413493,Eduardo Galaretto,Eduardo Horacio Galaretto,Unión Cívica Radical,,,1,politico,UCR,1
 Q5829946,Eloy de Igarzábal,Eloy de Igarzabal,Partido Autonomista Nacional,,,2,politico,Liberalismo,2
 Q4403662,Miguel Ángel Zavala Ortiz,Zavala Ortiz,Unión Cívica Radical,,,6,politico,UCR,6
-Q3417215,Rafael Bielsa,Rafael Antonio Bielsa,Frente para la Victoria,,,7,politico,PJ,7
-Q3417215,Rafael Bielsa,Rafael Antonio Bielsa Caldera,Frente para la Victoria,,,7,politico,PJ,7
 Q6039644,Nelson Daniel Gleadell,,Partido Justicialista,,,2,politico,PJ,2
 Q5673531,Américo Aguilera,Americo Aguilera,Unión Cívica Radical,,,2,politico,UCR,2
 Q1042620,Carlos Alberto Hogan y Costa,Carlos Alberto Hogan,Partido Justicialista,,,2,politico,PJ,2
@@ -1900,11 +1898,10 @@ Q18223595,Julio Alberto Ifrán,Julio Alberto Ifran,Partido Justicialista,,,1,pol
 Q5386230,Eric Calcagno,Eric Calcagno y Maillmann,Frente para la Victoria,,,4,politico,PJ,4
 Q108322391,Nancy Sand,Nancy Aracely Sand Giorasi,Partido Justicialista,,,2,politico,PJ,2
 Q123163193,Diana Mondino,Diana Elena Mondino,político independiente,,,10,politico,Dictadura,10
-Q5831227,Emilio Mitre,Emilio Edelmiro Mitre y Vedia,Unión Cívica Nacional,,,2,politico,UCR,2
+Q5831227,Emilio Mitre,Emilio Edelmiro Mitre y Vedia,Unión Cívica Nacional,,,2,politico,Liberalismo,2
 Q84495368,José Amadeo Conte Grand,,Partido Justicialista,,,2,politico,PJ,2
 Q8195340,Alfredo Atanasof,Alfredo Néstor Atanasof,Unión - Pro,,,7,politico,Sin clasificar,7
 Q8195340,Alfredo Atanasof,Atanasof,Unión - Pro,,,7,politico,Sin clasificar,7
-Q123316366,Julián Álvarez,Alejandro Julián Álvarez,Partido Justicialista,,,2,politico,PJ,2
 Q17274390,Alejandro Bodart,Hugo Alejandro Bodart,Movimiento Socialista de los Trabajadores,,,2,politico,Izquierda,2
 Q124438131,Luciana Potenza,,Partido Justicialista,,,2,politico,PJ,2
 Q7108084,Osvaldo Álvarez Guerrero,Osvaldo Alvarez Guerrero,Unión Cívica Radical,,,5,politico,UCR,5
@@ -2024,7 +2021,6 @@ Q111481645,Claudio Vidal,Claudio Orlando Vidal,Somos Energía para Renovar Santa
 Q599714,Ernesto Sanz,Ernesto Ricardo Sanz,Unión Cívica Radical,,,8,politico,UCR,8
 Q26951152,José Cabanillas,Jose Cabanillas,Partido Autonomista Nacional,,,1,politico,Liberalismo,1
 Q6109701,Roberto Domínguez,Roberto Dominguez,Partido Justicialista,,,2,politico,PJ,2
-Q20737416,Juan Fernando Brügge,El Profe,Partido Demócrata Cristiano,,,5,politico,Liberalismo,5
 Q6068363,Pedro Buitrago,,Concordancia (Argentina),,,2,politico,Sin clasificar,2
 Q2939375,Carlos Ibarguren,Carlos Ibarguren Uriburu,Partido Demócrata Progresista,,,7,politico,Liberalismo,7
 Q2939375,Carlos Ibarguren,Carlos Perfecto Ibarguren,Partido Demócrata Progresista,,,7,politico,Liberalismo,7
@@ -2587,7 +2583,6 @@ Q28122817,Juan Carlos Picazo Elordy,,Partido Justicialista,,,2,politico,PJ,2
 Q43471054,María Muiños,María Rosa Muiños,Partido Justicialista,,,2,politico,PJ,2
 Q2843155,Carlos Kunkel,Carlos Miguel Kunkel,Frente para la Victoria,,,4,politico,PJ,4
 Q5860291,Fernando Sánchez,Fernando Sanchez,Coalición Cívica ARI,,,1,politico,UCR,1
-Q5366487,Enrique Martínez,Enrique Martinez,Unión Cívica Radical,,,7,politico,UCR,7
 Q11686121,José Néstor Lencinas,Jose Nestor Lencinas,Unión Cívica Radical,,,3,politico,UCR,3
 Q11686121,José Néstor Lencinas,José Néstor Lencinas Videla,Unión Cívica Radical,,,3,politico,UCR,3
 Q908305,Domingo Cavallo,Mingo,Acción por la República,,,18,politico,Liberalismo,18
