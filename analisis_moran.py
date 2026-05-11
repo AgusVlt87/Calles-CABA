@@ -12,6 +12,9 @@ Requiere: pip install pandas scipy pingouin matplotlib seaborn
 Opcional (para Moran's I): pip install libpysal esda geopandas
 """
 
+import sys
+sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+
 import pandas as pd
 import numpy as np
 from scipy import stats

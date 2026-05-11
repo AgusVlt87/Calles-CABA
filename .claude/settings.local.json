@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c ' *)",
+      "Bash(python -c \"import wikidata_calles; print\\('Import OK'\\)\")",
+      "Bash(python wikidata_calles.py)"
+    ]
+  }
+}

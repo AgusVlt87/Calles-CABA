@@ -20,10 +20,11 @@ import pandas as pd
 from unidecode import unidecode
 from pathlib import Path
 
-CALLEJERO_PATH = r"data/callejero_caba.xlsx"
-FIGURAS_PATH   = r"data/figuras_con_partido.csv"
-PROCERES_PATH  = r"data/figuras_proceres.csv"
-OUT_DIR        = Path(".")
+CALLEJERO_PATH   = r"data/callejero_caba.xlsx"
+FIGURAS_PATH     = r"data/figuras_con_partido.csv"
+PROCERES_PATH    = r"data/figuras_proceres.csv"
+WIKIDATA_P138    = Path("data/callejero_wikidata_match.csv")
+OUT_DIR          = Path("data")
 
 # Tokens a eliminar en cualquier posición del nombre (globales, sin anclas)
 TOKENS_ELIMINAR = re.compile(
@@ -141,15 +142,26 @@ def main():
     print(f"    Calles:  {len(df_cal):,}")
     print(f"    Figuras: {len(df_todas):,}")
 
-    print("[2/4] Construyendo candidatos (solo nombres completos ≥2 tokens)...")
+    print("[2/4] Construyendo candidatos (solo nombres completos >=2 tokens)...")
     candidatos = construir_candidatos(df_todas)
     print(f"    Variantes únicas: {len(candidatos):,}")
 
     print("[3/4] Normalizando callejero y matcheando...")
     df_cal["nombre_norm"] = df_cal["nomoficial"].apply(normalizar)
 
+    # Cargar IDs ya verificados por wikidata_calles.py (P138), si existen.
+    # Esos segmentos se saltean del text-matching; el merge se hace al final.
+    ids_p138: set = set()
+    if WIKIDATA_P138.exists():
+        df_p138_pre = pd.read_csv(WIKIDATA_P138, encoding="utf-8-sig")
+        ids_p138 = set(df_p138_pre["id"].dropna().astype(int))
+        print(f"    P138 pre-cargado: {len(ids_p138):,} segmentos omitidos del text-match")
+
     resultados = []
     for _, row in df_cal.iterrows():
+        if int(row["id"]) in ids_p138:
+            # Ya cubierto por P138 — no aplicar text-match
+            continue
         figura = match_calle(row["nombre_norm"], candidatos)
         resultados.append({
             "id":            row["id"],
@@ -166,20 +178,30 @@ def main():
             "figura_nombre": figura["figura_nombre"] if figura else None,
             "partido_madre": figura["partido_madre"] if figura else None,
             "tipo_figura":   figura["tipo"]          if figura else None,
+            "fuente_match":  "texto"                 if figura else None,
         })
 
     print("[4/4] Guardando...")
     df_res   = pd.DataFrame(resultados)
-    matched  = df_res[df_res["wikidata_id"].notna()]
-    no_match = df_res[df_res["wikidata_id"].isna()]
+    matched  = df_res[df_res["wikidata_id"].notna()].copy()
+    no_match = df_res[df_res["wikidata_id"].isna()].copy()
 
+    # Si existe el output de wikidata_calles.py, añadir esas filas al matched
+    if WIKIDATA_P138.exists():
+        df_p138_pre["fuente_match"] = "wikidata_p138"
+        matched = pd.concat([df_p138_pre, matched], ignore_index=True)
+
+    # Segmentos sin match del text-match (excluye los ya cubiertos por P138)
     matched.to_csv(OUT_DIR  / "callejero_matched.csv",  index=False, encoding="utf-8-sig")
     no_match.to_csv(OUT_DIR / "callejero_no_match.csv", index=False, encoding="utf-8-sig")
 
-    total = len(df_res)
+    total = len(df_cal)
+    total_matched = len(matched)
     print("\n====== RESUMEN ======")
     print(f"Total calles:             {total:,}")
-    print(f"Calles con figura:        {len(matched):,}  ({100*len(matched)/total:.1f}%)")
+    print(f"Con match (P138):         {len(ids_p138):,}")
+    print(f"Con match (texto):        {len(df_res[df_res['wikidata_id'].notna()]):,}")
+    print(f"Total con figura:         {total_matched:,}  ({100*total_matched/total:.1f}%)")
     print(f"Sin match:                {len(no_match):,}  ({100*len(no_match)/total:.1f}%)")
     print("\nDistribución partido madre:")
     print(matched["partido_madre"].value_counts().to_string())

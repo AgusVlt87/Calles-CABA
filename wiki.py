@@ -95,24 +95,28 @@ PARTIDO_MADRE = {
 
     # Liberalismo
     "Partido Autonomista Nacional":             "Liberalismo",
+    "Partido Autonomista":                      "Liberalismo",   # Buenos Aires, Adolfo Alsina; luego fusionado en PAN
     "Partido Nacional Democrático":             "Liberalismo",
     "Partido Demócrata":                        "Liberalismo",
     "Partido Demócrata Progresista":            "Liberalismo",
-    "Partido Demócrata (Argentina)":              "Liberalismo",
-    "Acción por la República":                   "Liberalismo",
-    "Partido Demócrata Cristiano":                   "Liberalismo",
-    "Vox":                   "Liberalismo",
-    "Avanza Libertad":                   "Liberalismo",
-    "La Libertad Avanza":                   "Liberalismo",
-    "Partido Conservador":                   "Liberalismo",
-    "Partido Federal":                   "Liberalismo",
-    "Recrear para el Crecimiento":                   "Liberalismo",
-    "Partido Demócrata Progresista":                   "Liberalismo",
-    "Partido Liberal de Corrientes":                   "Liberalismo",
-    "Unión del Centro Democrático":                   "Liberalismo",
-    "Partido Demócrata de Córdoba":                   "Liberalismo",
-    "Partido Demócrata de Mendoza":                   "Liberalismo",
-    "Partido Libertario":                   "Liberalismo",
+    "Partido Demócrata (Argentina)":            "Liberalismo",
+    "Acción por la República":                  "Liberalismo",
+    "Partido Demócrata Cristiano":              "Liberalismo",
+    "Vox":                                      "Liberalismo",
+    "Avanza Libertad":                          "Liberalismo",
+    "La Libertad Avanza":                       "Liberalismo",
+    "Partido Conservador":                      "Liberalismo",
+    "Partido Federal":                          "Liberalismo",
+    "Recrear para el Crecimiento":              "Liberalismo",
+    "Partido Liberal de Corrientes":            "Liberalismo",
+    "Partido Liberal":                          "Liberalismo",   # genérico / histórico argentino
+    "Unión del Centro Democrático":             "Liberalismo",
+    "Partido Demócrata de Córdoba":             "Liberalismo",
+    "Partido Demócrata de Mendoza":             "Liberalismo",
+    "Partido Libertario":                       "Liberalismo",
+    "Partido Republicano":                      "Liberalismo",   # preUCR, siglo XIX argentino
+    # Unitarismo — liberales centralistas del siglo XIX; antecesores del liberalismo moderno
+    "Partido Unitario":                         "Liberalismo",
 
 
     # Izquierda

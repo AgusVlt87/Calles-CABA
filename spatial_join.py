@@ -11,13 +11,16 @@ spatial_join.py
 Requiere: pip install pandas geopandas openpyxl shapely
 """
 
+import sys
+sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+
 import pandas as pd
 import geopandas as gpd
 from pathlib import Path
 from shapely import wkt
 
 
-OUT_DIR = Path(".")
+OUT_DIR = Path("data")
 
 CALLEJERO_MATCHED   = r"data/callejero_matched.csv"
 CIRCUITOS_PATH      = r"data/circuitos_electorales.csv"
